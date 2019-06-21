@@ -1,0 +1,121 @@
+.content #nav-m {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#nav-ul li a {
+    background: rgb(50, 122, 54);
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+}
+
+#nav-ul > li {
+    float: left;
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+#nav-ul li a:hover {
+    background-color: rgb(40, 94, 42);
+}
+
+#nav-ul li ul {
+    display: none;
+    position: absolute;
+    margin-left: -9px;
+    margin-top: 55px;
+}
+
+#nav-ul li:hover > ul {
+    display: block;
+}
+
+#nav-ul li:first-child > a {
+    border-radius: 10% 0 0 10%;
+}
+
+#nav-ul li:last-child > a {
+    border-radius: 0 10% 10% 0;
+}
+
+#nav-ul li ul li:first-child > a {
+    border-radius: 0;
+}
+
+#nav-ul li ul li:last-child > a {
+    border-radius: 0 0 10% 10%;
+}
+
+#nav-ul li ul li a {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+#nav-ul #active {
+    background: rgb(40, 94, 42);
+}
+
+#nav-ule li a {
+    background: rgb(50, 122, 54);
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 38px;
+    display: block;
+}
+
+#nav-ule > li {
+    float: left;
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+#nav-ule li a:hover {
+    background-color: rgb(40, 94, 42);
+}
+
+#nav-ule li ul {
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+}
+
+#nav-ule li:hover > ul {
+    display: block;
+}
+
+#nav-ule li:first-child > a {
+    border-radius: 10% 0 0 10%;
+}
+
+#nav-ule li:last-child > a {
+    border-radius: 0 10% 10% 0;
+}
+
+#nav-ule li ul li:first-child > a {
+    border-radius: 0;
+}
+
+#nav-ule li ul li:last-child > a {
+    border-radius: 0 0 10% 10%;
+}
+
+#nav-ule li ul li a {
+    padding: 10px 18px;
+    font-size: 20px;
+}
+
+#nav-ule #active {
+    background: rgb(40, 94, 42);
+}
